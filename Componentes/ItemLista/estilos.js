@@ -1,15 +1,16 @@
 import { StyleSheet } from 'react-native'
 
 const estilos = StyleSheet.create({
-  box: {
-    backgroundColor: '#000',
-    alignItems: 'center',
-    padding: 10
+  boxSignos: {
+    padding: 10,
+    borderWidth: 1,
+    borderColor: '#000',
+    borderRadius: 2,
+    marginBottom: 10
   },
-  texto: {
-    fontSize: 28,
-    color: '#61dafb'
+  nomeSignos: {
+    fontSize: 18,
+    marginBottom: 5
   }
 })
-
 export default estilos

@@ -1,16 +1,16 @@
 import { StyleSheet } from 'react-native'
 
 const estilos = StyleSheet.create({
-  boxSignos: {
-    padding: 10,
-    borderWidth: 1,
-    borderColor: '#000',
-    borderRadius: 2,
-    marginBottom: 10
+  box: {
+    backgroundColor: '#000',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    height: 60
   },
-  nomeSignos: {
-    fontSize: 18,
-    marginBottom: 5
+  texto:{
+    fontSize: 28,
+    padding: 10,
+    color: '#61dafb'
   }
 })
 
